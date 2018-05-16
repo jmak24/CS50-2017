@@ -1,0 +1,5 @@
+0. The framework allows dimenions ranging from 3x3 to 9x9.
+1. The gameboard is represented in a 2-D array where the array is [ROW][COLUMN].
+2. The function called to greet the player is greet().
+3. Need to implement the following functions:
+        

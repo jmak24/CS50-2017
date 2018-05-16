@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <fieldset>
+        <div class="form-group">
+            <p><b>Stock Name:</b> {{name}} </p>
+            <p><b>Stock Symbol:</b> {{symbol}} </p>
+            <p><b>Price:</b> {{price}} </p>
+        </div>
+    </fieldset>
+{% endblock %}
